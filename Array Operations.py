@@ -33,3 +33,6 @@ print("Result of multiplying arr1 and arr2 : ", arr4)  # Print the result of mul
 
 slice_result = arr1[1:5]                          # Slicing the array from index 1 to 4
 print("Sliced array (index 1 to 4) : ", slice_result)  # Print the sliced array
+
+step_slice_result = arr1[::2]                     # Slicing the array with a step of 2
+print("Sliced array with step of 2 : ", step_slice_result)
