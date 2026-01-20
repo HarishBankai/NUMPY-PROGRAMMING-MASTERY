@@ -30,3 +30,6 @@ print("Result of adding arr1 and arr2 : ", arr3)  # Print the result of addition
 
 arr4 = arr1 * arr2                                      # Element-wise multiplication of two arrays
 print("Result of multiplying arr1 and arr2 : ", arr4)  # Print the result of multiplication
+
+slice_result = arr1[1:5]                          # Slicing the array from index 1 to 4
+print("Sliced array (index 1 to 4) : ", slice_result)  # Print the sliced array
