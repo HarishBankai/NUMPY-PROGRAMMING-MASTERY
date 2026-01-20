@@ -12,3 +12,10 @@ print("First elements : ", arr[0])
 
 #Accessing the fourth element
 print("Fourth elements : ",arr[3])
+
+zeros_array = np.zeros(6)
+print("Array of zeros : ", zeros_array)
+
+ones_array = np.ones(6)
+print("Array of ones : ", ones_array)
+
