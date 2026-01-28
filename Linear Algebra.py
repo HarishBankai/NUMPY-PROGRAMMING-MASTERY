@@ -12,3 +12,10 @@ print("MATRIX MULTIPLCATION : \n", C)
 # Calculate matrix multiplication using @ operator (which is equivalent to np.dot for matrices)
 result_set = A @ B 
 print("Set Matrix : \n", result_set)
+
+# Solve the linear system Ax = D using numpy.linalg.solve()
+D = np.array([3, 7])
+print(D)
+solve_array = np.linalg.solve(A, D)  
+print("Result : ", solve_array)
+
