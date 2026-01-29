@@ -24,3 +24,7 @@ print(result_add)
 
 print("\nResult of BROADCAST MULTIPLCATION (A * B):")
 print(result_multi)     
+
+#Vectorization 
+squared_data = A ** 2
+print("\nSquared Array :", squared_data)
