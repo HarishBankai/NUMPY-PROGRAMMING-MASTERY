@@ -7,9 +7,11 @@ data1 = np.genfromtxt(
     encoding='utf-8'
 )
 
-print("Successfully loaded Iris dataset : ", data1)
+top_5_rows = data1[:5]
 
-data2 = np.random.rand(10, 20, 2)
+print("Successfully loaded Iris dataset : ", top_5_rows)
+
+data2 = np.random.rand(1, 10)
 print("Generated data : ", data2)
 
 data3 = np.array([[1,8,9], [2,4,6], [3,5,7]])
