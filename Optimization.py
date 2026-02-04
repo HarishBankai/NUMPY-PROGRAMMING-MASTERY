@@ -1,6 +1,6 @@
 import numpy as np  
 
-data = np.random.rand(100000)  # Create an array of 100,000 random numbers using NumPy
+data = np.random.rand(1000000)  # Create an array of 100,000 random numbers using NumPy
 
 def sum_with_loop(data):  
     """This function calculates the sum of elements in data using a Python loop."""
